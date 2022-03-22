@@ -1,0 +1,113 @@
+.searchInputs {
+  margin-top: 50px;
+  display: flex;
+}
+
+.search input {
+  background-color: white;
+  border: 0;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 15px;
+  height: 25px;
+  width: 300px;
+}
+
+.searchIcon {
+  height: 55px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+input:focus {
+  outline: none;
+}
+.searchIcon svg {
+  font-size: 35px;
+}
+
+.searchBox {
+  flex-basis: 25%;
+  border-right: 1px solid rgb(214, 214, 214);
+}
+
+.searchBox .dataItem {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.suggestWin {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 750px;
+  gap: 1rem;
+}
+.dataItem {
+  padding: 0 1rem;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ffcf0c;
+}
+
+.topSearchHead,
+.topCollectionsHead,
+.topPopularHead {
+  padding: 1rem 1rem 0.2rem;
+  margin: 0;
+}
+.rghtAlgn {
+  flex-basis: 75%;
+}
+.card {
+  flex-basis: 31%;
+  font-size: 1rem;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 5px;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+.btnCls {
+  background-color: #ffcf0c;
+  border: 1px solid gray;
+  height: 40px;
+  font-size: 15px;
+  padding: 10px 60px;
+  margin: 10px 0px;
+}
+.btnContainer {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 20px;
+}
+h4 {
+  font-weight: initial;
+}
+.btnCls:hover {
+  background-color: #ffffff;
+  border: 1px solid #ffcf0c;
+}
